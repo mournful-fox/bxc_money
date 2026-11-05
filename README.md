@@ -1,17 +1,8 @@
 # bxc_money
 
-A new Flutter project.
+Простое мобильное приложение для контроля финансов
 
-## Getting Started
+Как это работает: Задаёшь период: сколько денег на карте, когда зарплата и сколько хочешь отложить. Каждый день приложение считает лимит по формуле: (деньги на начало дня + доходы за день − копилка) / дней до зарплаты Если удалось не потратить, то лимит на следующие дни сам вырастет, уменьшится, если было превышение по тратам Для того, что б день отметился, необходимо что-то записать в него. Если трат не было, отметить "без трат". Главное уложиться в лимит. Каждые 3 успешных дня подряд можно получиться сундук со случайной наградой. За успешные дни капают пельмешки. Это опыт, по ним растёт уровень.
 
-This project is a starting point for a Flutter application.
+Категории трат и доходов можно добавлять свои, а также редактировать существующие
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
